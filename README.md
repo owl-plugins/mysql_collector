@@ -25,7 +25,7 @@ owl 监控系统 mysql 采集插件，用于采集mysql的监控指标，并按�
 # cd ~/gopath/src/github.com/owl-plugins/
 # git clone https://github.com/owl-plugins/mysql_collector.git
 # cd mysql_collector 
-# go build
+# go get ./... && go build
 # ./mysql_collector --help
 NAME:
    mysql_collector - mysql performance metric collector
